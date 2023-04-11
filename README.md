@@ -9,3 +9,21 @@ Python is an incredibly versatile and widely-used programming language, and one 
 - Python 3.x and its development package
 - A C compiler (such as GCC)
 - Python's setuptools package
+
+## Examples
+
+- 01-helloworld-distutils
+
+```sh
+$ sudo dnf install python3-devel
+```
+
+  ```
+  DeprecationWarning: The distutils package is deprecated and slated for removal in Python 3.12. Use setuptools or check PEP 632 for potential alternatives
+  ```
+
+- 02-helloworld-setuptools
+
+```sh
+$ sudo dnf install python3-setuptools
+```
